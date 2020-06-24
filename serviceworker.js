@@ -6,7 +6,6 @@ var CACHED_URLS = [
   '/js/main.js'
 ];
 
-/* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
