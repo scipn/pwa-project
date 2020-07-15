@@ -4,6 +4,11 @@
   "lang": "en-US",
   "start_url": "/index.html",
   "display": "standalone",
+  "description": "Group C Project",
+  "orientiation": "auto",
+  "scope": "/pwa-project/",
   "background_color": "green",
   "theme_color": "green"
+  "dir": "auto",
+  "prefer_related_applications": "false",
 }
