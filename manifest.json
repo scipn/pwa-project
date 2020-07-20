@@ -16,6 +16,7 @@
       "src": "/android-chrome-512x512png",
       "sizes": "512x512",
       "type": "image/png"
+         },
   "orientiation": "auto",
   "background_color": "green",
   "theme_color": "green"
