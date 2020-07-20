@@ -2,7 +2,7 @@
   "name": "Group C PWA",
   "short_name": "Group C",
   "lang": "en-US",
-  "start_url": "/index.html",
+  "start_url": "../index.html",
   "display": "standalone",
   "description": "Group C Project",
     "icons": [
