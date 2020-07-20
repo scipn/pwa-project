@@ -2,8 +2,8 @@
   "name": "groupcpwa",
   "short_name": "groupc",
   "lang": "en-US",
-  "start_url": "/index.html",
-  "scope": ".",
+  "start_url": "../index.html",
+  "scope": "/pwa-project/",
   "display": "standalone",
   "description": "Group C Project",
     "icons": [
