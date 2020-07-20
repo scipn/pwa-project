@@ -17,7 +17,7 @@
       "sizes": "512x512",
       "type": "image/png"
   "orientiation": "auto",
-  "scope": "/pwa-project/",
+  "scope": "../pwa-project/",
   "background_color": "green",
   "theme_color": "green"
   "dir": "auto",
