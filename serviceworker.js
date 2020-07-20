@@ -2,9 +2,27 @@ var APP_PREFIX = 'pwa-project_'
 var VERSION = 'version_01'              
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            
-  '/{repository}/',                     
-  '/{repository}/index.html'            
+  '/pwa-project/',                     
+  '/pwa-project/index.html'            
 ]
+self.addEventListener('notificationclose', function(e) {
+  var notification = e.notification;
+  var primaryKey = notification.data.primaryKey;
+
+  console.log('Closed notification: ' + primaryKey);
+});
+self.addEventListener('notificationclick', function(e) {
+  var notification = e.notification;
+  var primaryKey = notification.data.primaryKey;
+  var action = e.action;
+
+  if (action === 'close') {
+    notification.close();
+  } else {
+    clients.openWindow('http://www.example.com');
+    notification.close();
+  }
+});
 
 // Respond with cached resources
 self.addEventListener('fetch', function (e) {
