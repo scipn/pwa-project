@@ -6,6 +6,10 @@
   "scope": "/pwa-project/",
   "display": "standalone",
   "description": "Group C Project",
+  "orientiation": "auto",
+  "background_color": "green",
+  "theme_color": "green",
+  "dir": "auto",
     "icons": [
     {
       "src": "/android-chrome-192x192",
@@ -18,8 +22,4 @@
       "type": "image/png"
          }
         ],
-  "orientiation": "auto",
-  "background_color": "green",
-  "theme_color": "green",
-  "dir": "auto",
 }
