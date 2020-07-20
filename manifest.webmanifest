@@ -3,6 +3,7 @@
   "short_name": "groupc",
   "lang": "en-US",
   "start_url": "/index.html",
+  "scope": ".",
   "display": "standalone",
   "description": "Group C Project",
     "icons": [
