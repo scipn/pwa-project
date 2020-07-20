@@ -17,7 +17,6 @@
       "sizes": "512x512",
       "type": "image/png"
          },
-  "orientiation": "auto",
   "background_color": "green",
   "theme_color": "green"
   "dir": "auto",
