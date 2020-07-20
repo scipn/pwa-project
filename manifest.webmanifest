@@ -2,8 +2,8 @@
   "name": "groupcpwa",
   "short_name": "groupc",
   "lang": "en-US",
-  "start_url": "../index.html",
-  "scope": "/pwa-project/",
+  "start_url": "https://scipn.github.io/pwa-project/",
+  "scope": "/",
   "display": "standalone",
   "description": "Group C Project",
     "icons": [
