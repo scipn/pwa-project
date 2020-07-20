@@ -12,6 +12,13 @@ html,
   width: 100%;
 }
 
+.add-button {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+    
+}
+
 /* Center the content in the browser window */
 .container {
   margin: auto;
