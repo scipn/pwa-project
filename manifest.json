@@ -5,6 +5,17 @@
   "start_url": "/index.html",
   "display": "standalone",
   "description": "Group C Project",
+    "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    // ...
+    {
+      "src": "/android-chrome-512x512png",
+      "sizes": "512x512",
+      "type": "image/png"
   "orientiation": "auto",
   "scope": "/pwa-project/",
   "background_color": "green",
