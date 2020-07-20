@@ -2,12 +2,12 @@
   "name": "groupcpwa",
   "short_name": "groupc",
   "lang": "en-US",
-  "start_url": "https://scipn.github.io/pwa-project/",
-  "scope": "/",
+  "start_url": "/pwa-project/index.html",
+  "scope": "/pwa-project/",
+  "start_url": "index.html",
   "display": "standalone",
   "description": "Group C Project",
     "icons": [
-    {
       "src": "/android-chrome-192x192",
       "sizes": "192x192",
       "type": "image/png"
