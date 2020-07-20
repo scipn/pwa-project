@@ -1,8 +1,8 @@
 {
-  "name": "Group C PWA",
-  "short_name": "Group C",
+  "name": "groupcpwa",
+  "short_name": "groupc",
   "lang": "en-US",
-  "start_url": "../index.html",
+  "start_url": "./",
   "display": "standalone",
   "description": "Group C Project",
     "icons": [
@@ -16,10 +16,10 @@
       "src": "/android-chrome-512x512png",
       "sizes": "512x512",
       "type": "image/png"
+         },
   "orientiation": "auto",
-  "scope": "/pwa-project/",
   "background_color": "green",
-  "theme_color": "green"
+  "theme_color": "green",
   "dir": "auto",
   "prefer_related_applications": "false",
 }

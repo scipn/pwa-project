@@ -1,6 +1,6 @@
 {
-  "name": "Group C PWA",
-  "short_name": "Group C",
+  "name": "groupcpwa",
+  "short_name": "groupc",
   "lang": "en-US",
   "start_url": "./",
   "display": "standalone",
